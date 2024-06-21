@@ -1,0 +1,101 @@
+body { 
+    background: url(../图片/晚霞.jpeg);
+    margin:           0px;
+    padding: 0;
+    
+  }
+
+#header{
+   
+    height:           100px;
+    background-color: #f2f2f2;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+    /* 图片做颜色 */
+}
+#nav{
+    background-color: #333;
+    height:           40px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    align-items: center;/* 在交叉轴上居中对齐 */
+}
+
+#jieshao{
+    float: left;  /* 图片向左浮动 */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+ #touxiang {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;  /*增加一些右边距，提供间距 */
+  }
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f6f6f7;
+}
+h3 {
+    text-align: center;
+    color: #f0eeee;
+}
+
+
+.inner{
+	float: right;
+    font-size: 150%;
+    font-family: cursive;
+    font-weight: 300;
+    color: #ede1e1;
+    
+}
+
+
+#container_1{
+    background-color: rgb(51, 184, 229);
+    background-image: url(../图片/柳.jpeg);
+    padding: 20px;
+    /* border-spacing: 10px; */
+    height:           400px;
+}
+div#container_1 div.inner div#cont_1{
+   
+        margin-top:  200px;
+        width :500px;
+        margin-left: 20px; /* 与页面左侧保持 20px 的距离 */
+        
+    
+}
+div#container_1 div.inner div#cont_2{
+   
+    margin-top:  200px;
+    width :400px;
+    margin-right: 500px; /* 与页面右侧保持 500px 的距离 */
+    
+
+}
+footer {   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(51, 51, 51, 0); /* 设置背景颜色为完全透明 */
+    color: #fff;
+    padding: 0.1px;
+}
+
+
