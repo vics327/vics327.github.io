@@ -1,0 +1,152 @@
+body { 
+    background: url(../图片/晚霞.jpeg);
+    margin:           0px;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+  }
+
+#header{
+   
+    height:           100px;
+    background-color: #f2f2f2;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+    /* 图片做颜色 */
+}
+#nav{
+    background-color: #333;
+    height:           40px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    align-items: center;/* 在交叉轴上居中对齐 */
+}
+
+#jieshao{
+    float: left;  /* 图片向左浮动 */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+ #touxiang {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;  /* 可选：增加一些右边距，提供间距 */
+  }
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f6f6f7;
+}
+h3 {
+    text-align: center;
+    color: #f0eeee;
+}
+
+
+.inner{
+	float: right;
+    font-size: 150%;
+    font-family: cursive;
+    font-weight: bold;
+    color: #ede1e1;
+    text-align: right;
+    
+}
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+p {
+    color: #666;
+}
+table {
+    margin: 20px auto; /* 设置表格居中显示并与上下元素保持 20px 的距离 */
+    border-collapse: collapse; /* 合并单元格边框 */
+    border: 1px solid rgb(0, 0, 0); /* 设置表格边框为黑色实线 */
+    width: 40%;
+    height: 800px;
+    margin-bottom: 20px;
+    border-collapse:  collapse;
+}
+.inner {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /*加粗 */
+    color: #555;
+    text-align: left; /* 设置内部标题文字右对齐 */
+}
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;/* 设置标题与表格内容之间的距离为 10px */
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #000; /* 设置单元格边框为黑色实线 */
+    padding: 8px;
+    
+}
+tr:nth-child(even) {
+    background-color: #0cf0f4;
+  }
+  
+  /* 为表格的奇数行设置背景颜色 */
+tr:nth-child(odd) {
+    background-color: #ebf1f6d3;
+  }
+tr:hover {
+    background-color: inherit; /* 鼠标悬停时背景颜色继承父元素颜色，保持不变 */
+  }
+img {
+    max-width: 80px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+#sss{
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+} 
+td.left-align {
+    text-align: left; /* 设置单元格内容左对齐 */
+  }
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+th[colspan="8"] {
+    /* text-align: center; */
+    font-size: 1.2em;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+td[rowspan="4"] {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td[colspan="3"] {
+    text-align: center;
+}
+
+td[colspan="7"] {
+    font-style: italic;
+}

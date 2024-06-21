@@ -1,0 +1,89 @@
+body { 
+    background: url(../图片/晚霞.jpeg);
+    margin:           0px;
+    padding: 0;
+    
+  }
+
+#header{
+   
+    height:           100px;
+    background-color: #f2f2f2;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+    /* 图片做颜色 */
+}
+#nav{
+    background-color: #333;
+    height:           40px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    align-items: center;/* 在交叉轴上居中对齐 */
+}
+
+#jieshao{
+    float: left;  /* 图片向左浮动 */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+ #touxiang {
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;  /* 可选：增加一些右边距，提供间距 */
+  }
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f6f6f7;
+}
+#a2{
+    color: #161111;
+    text-align: center;
+    font-size: 150%;
+}
+form{
+    text-align: center;
+}
+h2 img {
+    width: 400px; /* 设置图片宽度为50像素，您可以根据需要调整大小 */
+    height: auto; /* 保持高度自适应，以保持比例 */
+    display: block; /* 将图片转换为块级元素，以便设置居中 */
+    margin: 20px auto; /* 设置上下边距为20像素，左右边距自动居中 */
+}
+h3 {
+    text-align: center;
+    color: #f0eeee;
+}
+
+
+.inner{
+	float: right;
+    font-size: 150%;
+    font-family: cursive;
+    font-weight: 300;
+    color: #ede1e1;
+    
+}
+
+footer {   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(51, 51, 51, 0); /* 设置背景颜色为完全透明 */
+    color: #fff;
+    padding: 0.1px;
+}
